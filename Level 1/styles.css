@@ -3,11 +3,14 @@ body {
     background-color: white;
     color: black;
     font-family: Arial, sans-serif;
+    display: inline;
     transition: background-color 0.3s, color 0.3s;
+    justify-content: center;
 }
 
 /* Dark mode styles */
 body.dark-mode {
     background-color: black;
     color: white;
+    display: inline;
 }
